@@ -23,6 +23,7 @@ The following figure shows the VPP Agent in context of a cloud-native VNF, where
 ![VPP agent 10.000 feet][vpp-agent-10k]
 
 Brief description:
+
 * **SFC Controller** - renders a logical network topology (which defines how VNF are logically interconnected) onto a given physical network and VNF placement; the rendering process creates configuration for VNFs and network devices.
   
 * **Control Plane Apps** - renders specific VPP configuration for multiple agents to the Data Store
